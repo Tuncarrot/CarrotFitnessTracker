@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Content\Images\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <None Include="wwwroot\breakfast.png" />
     <None Include="wwwroot\css\styling.css" />
   </ItemGroup>
 
