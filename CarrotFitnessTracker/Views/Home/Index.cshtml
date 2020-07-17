@@ -2,13 +2,43 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container">
-    <div class="card">
-        <div class="imgBx">
-            <img src="~/breakfast.png" />
+<div class="cards-selection">
+    <div class="container">
+        <div class="card" style="--name: 'Nutrition'; --colour:#011640">
+            <div class="imgBx">
+                <img src="~/breakfast.png" />
+            </div>
+            <div class="contentBx">
+                <h2>Nutrition</h2>
+                <h3>Data </h3>
+                <a href="#">Input</a>
+            </div>
         </div>
-        <div class="contentBx">
-            <h2>Food</h2>
+    </div>
+
+    <div class="container">
+        <div class="card" style="--name: 'Cardio';--colour: #04D9D9">
+            <div class="imgBx">
+                <img src="~/rope.png" />
+            </div>
+            <div class="contentBx">
+                <h2>Cardio</h2>
+                <h3>Data </h3>
+                <a href="#">Input</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card" style="--name: 'Workout';--colour: #F25C05">
+            <div class="imgBx">
+                <img src="~/iron.png" />
+            </div>
+            <div class="contentBx">
+                <h2>Workout</h2>
+                <h3>Data </h3>
+                <a href="#">Input</a>
+            </div>
         </div>
     </div>
 </div>

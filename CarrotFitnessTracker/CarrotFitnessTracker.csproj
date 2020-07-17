@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\breakfast.png" />
-    <None Include="wwwroot\css\styling.css" />
+    <None Include="wwwroot\css\cards-styling.css" />
   </ItemGroup>
 
 </Project>
